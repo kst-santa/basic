@@ -1,8 +1,8 @@
 import './App.css';
-import Profile from './components/Profile';
-import Avatar from './components/Avatar';
+import Profile from './basic/components/Profile';
+import Avatar from './basic/components/Avatar';
 
-function AppProfile() {
+export default function AppProfile() {
   const handleClick = (event) => {
     console.log(event);
     alert('버튼이 클릭됨!');
@@ -33,5 +33,3 @@ function AppProfile() {
     </>
   );
 }
-
-export default AppProfile;
